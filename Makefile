@@ -1,5 +1,5 @@
 
-CFLAGS = -std=c++17 -O2
+CFLAGS = -std=c++17 -O0 -g
 LDFLAGS = -lglfw -lvulkan -ldl -lpthread -lX11 -lXxf86vm -lXrandr -lXi
 
 VulkanTest: main.cpp
@@ -12,4 +12,5 @@ test: VulkanTest
 
 clean:
 	rm -f VulkanTest
+
 
