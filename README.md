@@ -1,4 +1,4 @@
-### Vulkan-01
+# Vulkan-01
 
 ## Drawing a Triangle
 - Instance and physical device selection
@@ -38,7 +38,7 @@ if (vkCreateXXX(&createInfo, nullptr, &object) != VK_SUCCESS) {
 - Functions that create or destroy an object will have a VkAllocationCallbacks parameter that allows you to use a custom allocator
 - Almost all functions return a VkResult that is either VK_SUCCESS or and error code
 
-# Validation Layers
+### Validation Layers
 - By default vulkan wont perform many erroc checking
 - Vulkan allows you to enable extensive checks throguht a feature known as validation layers
 - You can enable and disable them easily
